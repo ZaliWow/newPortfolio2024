@@ -6,7 +6,9 @@ export default {
       backgroundImage:{
         'HeroHome':'url(/public/images/HeroHome.webp)',
         'Leadership':'url(/public/images/BgLeadership.webp)',
-        'TeamWork':'url(/public/images/BgTeamWork.webp)'
+        'TeamWork':'url(/public/images/BgTeamWork.webp)',
+        'Achievements':'url(/public/images/bgAchievements.webp)'
+
       },
 
 
