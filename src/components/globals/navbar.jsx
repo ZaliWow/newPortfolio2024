@@ -22,7 +22,7 @@ export function Navbar(params) {
             <li><a>TECHNICAL SKILLS</a></li>
           </ul>
         </li>
-        <li><a>PROJECTS</a></li>
+        <li><a onClick={() => navigate("/projects")}>PROJECTS</a></li>
         <li><a>STUDIES</a></li>
         <li><a>CONTACT</a></li>
       </ul>
@@ -43,7 +43,7 @@ export function Navbar(params) {
           </ul>
         </details>
       </li>
-      <li><a>PROJECTS</a></li>
+      <li><a onClick={() => navigate("/projects")}>PROJECTS</a></li>
       <li><a>STUDIES</a></li>
         <li><a>CONTACT</a></li>
     </ul>

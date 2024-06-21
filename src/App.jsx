@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom"
 import { Home } from "./pages/Home"
 import { Footer } from "./components/globals/Footer"
 import { Achievements } from "./pages/Achievements"
+import { Projects } from "./pages/Projects"
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
   <Routes>
     <Route path="/" element={<Home></Home>}></Route>
     <Route path="/achievements" element={<Achievements></Achievements>}></Route>
+    <Route path="/projects" element={ <Projects></Projects>}></Route>
   </Routes>
   <Footer></Footer>
   </>
