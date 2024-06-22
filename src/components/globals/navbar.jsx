@@ -13,7 +13,7 @@ export function Navbar(params) {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><a onClick={() => navigate("/")}>HOME</a></li>
-        <li><a>ABOUT</a></li>
+        <li><a onClick={() => navigate("/about")}>ABOUT</a></li>
         <li><a onClick={() => navigate("/achievements")}>ACHIEVEMENTS</a></li>
         <li>
           <a>SKILLS</a>
@@ -32,7 +32,7 @@ export function Navbar(params) {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li><a onClick={() => navigate("/")}>HOME</a></li>
-      <li><a>ABOUT</a></li>
+      <li><a onClick={() => navigate("/about")}>ABOUT</a></li>
       <li><a onClick={() => navigate("/achievements")}>ACHIEVEMENTS</a></li>
       <li>
         <details>

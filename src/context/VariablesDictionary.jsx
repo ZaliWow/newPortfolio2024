@@ -11,7 +11,18 @@ export function VariablesDictionaryContextProvider({children}){
         php: "bg-violet-400",
         sql: "bg-blue-900 text-white",
         html: "bg-red-400",
-        css: "bg-blue-200",
+        figma:"bg-gradient-to-r from-red-500 via-blue-500 via-green-500 to-black-500",
+        css: "bg-blue-300",
+        postgresql:"bg-gradient-to-r from-blue-300 to-white",
+        node:"bg-green-200",
+        express:"bg-gradient-to-r from-yellow-300 to-green-200",
+        supabase:"bg-green-400",
+        tailwind:"bg-sky-400",
+        astro:"bg-[#FF5D01]",
+        materialui:"bg-blue-500"
+
+
+
     });
 
     return(

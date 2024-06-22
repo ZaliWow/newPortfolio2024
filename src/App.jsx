@@ -6,6 +6,7 @@ import { Home } from "./pages/Home"
 import { Footer } from "./components/globals/Footer"
 import { Achievements } from "./pages/Achievements"
 import { Projects } from "./pages/Projects"
+import { About } from "./pages/About"
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
     <Route path="/" element={<Home></Home>}></Route>
     <Route path="/achievements" element={<Achievements></Achievements>}></Route>
     <Route path="/projects" element={ <Projects></Projects>}></Route>
+    <Route path="/about" element={<About></About>}></Route>
   </Routes>
   <Footer></Footer>
   </>

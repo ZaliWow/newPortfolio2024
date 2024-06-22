@@ -7,8 +7,9 @@ export default {
         'HeroHome':'url(/public/images/HeroHome.webp)',
         'Leadership':'url(/public/images/BgLeadership.webp)',
         'TeamWork':'url(/public/images/BgTeamWork.webp)',
-        'Achievements':'url(/public/images/bgAchievements.webp)'
-
+        'Achievements':'url(/public/images/bgAchievements.webp)',
+        'ProjectSlider':'url(/public/images/projectSlide.webp)',
+        'sky':'url(/public/images/sky.webp)'
       },
 
 
