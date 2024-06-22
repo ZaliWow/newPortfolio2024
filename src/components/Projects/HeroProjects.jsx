@@ -1,6 +1,6 @@
 export function HeroProjects(params) {
     return(
-        <div className="hero bg-primary" >
+        <div className="hero h-1/2 bg-primary" >
         
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
