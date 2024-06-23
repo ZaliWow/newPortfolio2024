@@ -18,8 +18,8 @@ export function Navbar(params) {
         <li>
           <a>SKILLS</a>
           <ul className="p-2">
-            <li><a>SOFT SKILLS</a></li>
-            <li><a>TECHNICAL SKILLS</a></li>
+            <li><a href="#ToolsSkills" onClick={() => navigate("/")}>SOFT SKILLS</a></li>
+            <li><a href="#ToolsSkills" onClick={() => navigate("/")}>TECHNICAL SKILLS</a></li>
           </ul>
         </li>
         <li><a onClick={() => navigate("/projects")}>PROJECTS</a></li>
@@ -38,8 +38,8 @@ export function Navbar(params) {
         <details>
           <summary>SKILLS</summary>
           <ul className="p-2">
-            <li><a>SOFT SKILLS</a></li>
-            <li><a>TECHNICAL SKILLS</a></li>
+            <li><a href="#ToolsSkills" onClick={() => navigate("/")}>SOFT SKILLS</a></li>
+            <li><a href="#ToolsSkills" onClick={() => navigate("/")}>TECHNICAL SKILLS</a></li>
           </ul>
         </details>
       </li>

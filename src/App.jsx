@@ -7,6 +7,9 @@ import { Footer } from "./components/globals/Footer"
 import { Achievements } from "./pages/Achievements"
 import { Projects } from "./pages/Projects"
 import { About } from "./pages/About"
+import { Contact } from "./components/globals/Contact"
+
+
 
 function App() {
  
@@ -23,6 +26,7 @@ function App() {
     <Route path="/projects" element={ <Projects></Projects>}></Route>
     <Route path="/about" element={<About></About>}></Route>
   </Routes>
+  <Contact></Contact>
   <Footer></Footer>
   </>
   )
