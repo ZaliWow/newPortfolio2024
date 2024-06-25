@@ -6,7 +6,7 @@ export function HeroAchievements(params) {
           <div>
             <h1 className="text-5xl font-bold text-white">It's been a great year!</h1>
             <p className="py-6 text-white">These are my most notable achievements in 2024, and they will not be the last.</p>
-            <button className="btn btn-primary">View Achivements</button>
+            <button className="mt-10 lg:mt-24 bg-black text-white py-4 px-8">View Achivements</button>
           </div>
         </div>
         </div>

@@ -53,9 +53,9 @@ export function Contact(params) {
             <div className="text-center">
               <button
                 type="submit"
-                className="px-4 py-2 font-semibold text-white bg-primary rounded-lg hover:bg-black focus:outline-none focus:ring focus:ring-blue-200"
+                 className="mt-10 lg:mt-24 bg-black text-white py-4 px-8"
               >
-                Enviar
+                Enviar 
               </button>
             </div>
           </form>
