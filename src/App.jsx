@@ -8,6 +8,7 @@ import { Achievements } from "./pages/Achievements"
 import { Projects } from "./pages/Projects"
 import { About } from "./pages/About"
 import { Contact } from "./components/globals/Contact"
+import { Charging } from "./components/globals/Charging"
 
 
 
@@ -20,6 +21,7 @@ function App() {
   <>
   <TitleWeb></TitleWeb>
   <Navbar></Navbar>
+  <Charging></Charging>
   <Routes>
     <Route path="/" element={<Home></Home>}></Route>
     <Route path="/achievements" element={<Achievements></Achievements>}></Route>
