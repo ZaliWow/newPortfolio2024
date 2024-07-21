@@ -8,7 +8,7 @@ export function RegisterForm(params) {
                     <div className="flex w-full justify-center mt-10">
                         <div className="  avatar">
                             <div className="w-24 rounded-full">
-                                <img src="/public/images/Avatar.webp" />
+                                <img src="images/Avatar.webp" />
                             </div>
                         </div>
                     </div>
