@@ -62,7 +62,7 @@ export function Contact(params) {
             <h2 className="mb-6 text-3xl font-bold text-center text-gray-800">Contact information</h2>
             <form className="space-y-4">
               <div>
-                <label className="block mb-2 text-sm font-medium text-gray-600" htmlFor="name">Full Name</label>
+                <label className="block mb-2 text-xl font-medium text-gray-600" htmlFor="name">Full Name</label>
                 <input
                   className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200"
                   type="text"
@@ -73,7 +73,7 @@ export function Contact(params) {
                 />
               </div>
               <div>
-                <label className="block mb-2 text-sm font-medium text-gray-600" htmlFor="email">E-mail</label>
+                <label className="block mb-2 text-xl font-medium text-gray-600" htmlFor="email">E-mail</label>
                 <input
                   className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200"
                   type="email"
@@ -84,7 +84,7 @@ export function Contact(params) {
                 />
               </div>
               <div>
-                <label className="block mb-2 text-sm font-medium text-gray-600" htmlFor="subject">Phone</label>
+                <label className="block mb-2 text-xl font-medium text-gray-600" htmlFor="subject">Phone</label>
                 <input
                   className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200"
                   type="number"
@@ -95,7 +95,7 @@ export function Contact(params) {
                 />
               </div>
               <div>
-                <label className="block mb-2 text-sm font-medium text-gray-600" htmlFor="message">Message</label>
+                <label className="block mb-2 text-xl font-medium text-gray-600" htmlFor="message">Message</label>
                 <textarea
                   className="w-full h-32 px-3 py-2 text-gray-700 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200"
                   id="message"

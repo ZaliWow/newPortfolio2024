@@ -11,7 +11,6 @@ import { Contact } from "./components/globals/Contact"
 import { Charging } from "./components/globals/Charging"
 
 
-
 function App() {
  
 
@@ -22,6 +21,7 @@ function App() {
   <TitleWeb></TitleWeb>
   <Navbar></Navbar>
   <Charging></Charging>
+
   <Routes>
     <Route path="/" element={<Home></Home>}></Route>
     <Route path="/achievements" element={<Achievements></Achievements>}></Route>

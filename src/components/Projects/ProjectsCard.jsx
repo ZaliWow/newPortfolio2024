@@ -14,7 +14,7 @@ export function ProjectsCards() {
     <div className="flex flex-wrap  justify-center lg:justify-start">
       {filteredProjects.map(item => {
         return (
-          <div className="card  z-0 mx-2 my-10 lg:my-10 max-h-64 min-h-72 lg:max-h-64 lg:min-h-72 max-w-72 min-w-64  lg:max-w-72 lg:min-w-72 bg-base-100 shadow-xl image-full">
+          <div className="card  z-0 mx-2 my-10 lg:my-10 max-h-64 min-h-72 lg:max-h-96 lg:min-h-96 max-w-72 min-w-64  lg:max-w-96 lg:min-w-96 bg-base-100 shadow-xl image-full">
             <figure>
               <img className="w-full " src={item.bg} alt="Shoes" /></figure>
             <div className="card-body">
@@ -34,10 +34,10 @@ export function ProjectsCards() {
               </div>
               <div className="collapse collapse-arrow ">
                 <input type="radio" name="my-accordion-2" defaultChecked />
-                <div className="collapse-title text-xl font-medium">
+                <div className=" text-xl font-medium">
                   Tools
                 </div>
-                <div className="collapse-content p-0 m-0 w-full">
+                <div className=" p-0 m-0 w-full">
                   <div className=" flex flex-wrap ">
                     {item.tools.map((tool) => {
                       return (
