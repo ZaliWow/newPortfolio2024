@@ -9,7 +9,8 @@ export default {
         'TeamWork':'url(/public/images/BgTeamWork.webp)',
         'Achievements':'url(/public/images/bgAchievements.webp)',
         'ProjectSlider':'url(/public/images/projectSlide.webp)',
-        'sky':'url(/public/images/sky.webp)'
+        'sky':'url(/public/images/sky.webp)',
+        'ProjectsCards':'url(/public/images/bgProjects.webp)',
       },
 
 
