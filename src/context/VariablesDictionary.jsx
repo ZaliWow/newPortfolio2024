@@ -34,7 +34,7 @@ export function VariablesDictionaryContextProvider({ children }) {
       url: "https://github.com/ZaliWow/portafolioDavid",
       type: "frontend",
       tools: ["react", "materialui", "javascript", "html", "css"],
-      bg: "/public/images/react.webp",
+      bg: "images/react.webp",
       page: "https://portfolio-dev-david.netlify.app/"
     },
     {
@@ -43,7 +43,7 @@ export function VariablesDictionaryContextProvider({ children }) {
       url: "https://github.com/Trycatch-tv/trycatch_factory_site",
       type: "frontend",
       tools: ["astro", "tailwind", "supabase", "javascript", "html", "css"],
-      bg: "/public/images/astro.webp",
+      bg: "images/astro.webp",
       page: "https://dev.trycatchfactory.com/"
     },
     {
@@ -52,7 +52,7 @@ export function VariablesDictionaryContextProvider({ children }) {
       url: "https://github.com/ZaliWow/Auth0ReactVite",
       type: "frontend",
       tools: ["react", "tailwind", "auth0", "javascript", "html", "css"],
-      bg: "/public/images/react.webp",
+      bg: "images/react.webp",
       page: "https://auth0-example.netlify.app/"
     },
     {
@@ -61,7 +61,7 @@ export function VariablesDictionaryContextProvider({ children }) {
       url: "https://github.com/ZaliWow/Administration",
       type: "frontend",
       tools: ["react", "tailwind", "supabase", "javascript", "html", "css"],
-      bg: "/public/images/react.webp",
+      bg: "images/react.webp",
       page: "https://admin-kasa-klaus.netlify.app/login"
     },
     {
@@ -70,7 +70,7 @@ export function VariablesDictionaryContextProvider({ children }) {
       url: "https://github.com/ZaliWow/pa-graduarme-backend",
       type: "backend",
       tools: ["express", "node", "postgresql", "javascript", "sql"],
-      bg: "/public/images/node.jpg",
+      bg: "images/node.jpg",
       page: "https://proyecto-backend-william-david-morales.onrender.com/registro/estudiantes"
 
     },
@@ -80,7 +80,7 @@ export function VariablesDictionaryContextProvider({ children }) {
       url: "https://www.figma.com/design/naTCbwJWexnmBarOBysJQd/TryCatch-Factory-Figma?node-id=1092-492&t=oeSVSJ7j5btjDQMy-0",
       type: "desing",
       tools: ["figma"],
-      bg: "/public/images/figma.webp",
+      bg: "images/figma.webp",
       page: "https://www.figma.com/design/naTCbwJWexnmBarOBysJQd/TryCatch-Factory-Figma?node-id=1092-492&t=oeSVSJ7j5btjDQMy-0",
 
     },
@@ -90,7 +90,7 @@ export function VariablesDictionaryContextProvider({ children }) {
       url:"https://github.com/ZaliWow/backendPortfolio",
       type:"backend",
       tools:["Laravel", "Mysql", "Railway"],
-      bg:"/public/images/laravel.webp",
+      bg:"images/laravel.webp",
       page:"https://backendportfolio-production-500f.up.railway.app/api/contact-submissions"
     }
 
