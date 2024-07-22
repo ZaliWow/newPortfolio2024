@@ -18,8 +18,8 @@ export function ProjectsCards() {
             <figure>
               <img className="w-full " src={item.bg} alt="Shoes" /></figure>
             <div className="card-body">
-              <h2 className="card-title">{item.title}</h2>
-              <p>{item.description}</p>
+              <h2 className="card-title text-2xl">{item.title}</h2>
+              <p className="text-xl">{item.description}</p>
               <div className="absolute top-0 right-0 mt-[-10px] mr-[20px] ">
                 <button className="bg-white p-2 rounded" onClick={e => {
                   window.open(item.url, "_blank");

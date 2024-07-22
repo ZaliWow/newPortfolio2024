@@ -9,8 +9,8 @@ import { Projects } from "./pages/Projects"
 import { About } from "./pages/About"
 import { Contact } from "./components/globals/Contact"
 import { Charging } from "./components/globals/Charging"
-
-
+import { Studies } from "./pages/Studies"
+import { Questions } from "./pages/Questions"
 function App() {
  
 
@@ -27,6 +27,9 @@ function App() {
     <Route path="/achievements" element={<Achievements></Achievements>}></Route>
     <Route path="/projects" element={ <Projects></Projects>}></Route>
     <Route path="/about" element={<About></About>}></Route>
+    <Route path="/studies" element={<Studies></Studies>}></Route>
+    <Route path="/questions" element={<Questions></Questions>}></Route>
+   
   </Routes>
   <Contact></Contact>
   <Footer></Footer>

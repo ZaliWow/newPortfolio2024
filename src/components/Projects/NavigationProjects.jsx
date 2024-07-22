@@ -10,11 +10,11 @@ export function NavigationProjects(params) {
   const filteredProjects = handleFilterProjects(LibraryProjects)
   
   return (
-  <div className="flex   flex-wrap justify-center  "  >
+  <div className="flex   flex-wrap justify-center bg-ProjectsCards "  >
     
   
   <div className="lg:flex w-full">
-  <div className="card lg:h-3/4 rounded-box grid h-fill  flex-grow place-items-center">
+  <div className="card lg:h-screen rounded-box grid h-fill  flex-grow place-items-center">
   <div>
     <a></a>
        <ul>
