@@ -1,10 +1,12 @@
 import { useNavigate } from "react-router-dom"
 import { LoginForm } from "./LoginForm"
 import { RegisterForm } from "./RegisterForm"
+import { useContext } from "react"
+import { AuthContext } from "../../context/AuthContext"
 
 export function Navbar(params) {
   const navigate = useNavigate()
-
+  const {auth}= useContext(AuthContext)
     return(
         <div className="navbar bg-base-100">
   <div className="navbar-start">
@@ -26,7 +28,7 @@ export function Navbar(params) {
         <li><a onClick={() => navigate("/projects")}>PROJECTS</a></li>
         <li><a onClick={() => navigate("/studies")}>STUDIES</a></li>
         <li><a onClick={() => navigate("/contact")}>CONTACT</a></li>
-        <li><a onClick={() => navigate("/questions")}></a>QUESTIONS</li>
+        <li><a onClick={auth.token ? () => navigate("/questions") : () => document.getElementById('my_modal_4').showModal()}></a>QUESTIONS</li>
       </ul>
      
     </div>
@@ -48,7 +50,7 @@ export function Navbar(params) {
       <li><a className="text-2xl" onClick={() => navigate("/projects")}>PROJECTS</a></li>
       <li><a className="text-2xl" onClick={() => navigate("/studies")}>STUDIES</a></li>
         <li><a className="text-2xl" onClick={() => navigate("/contact")}>CONTACT</a></li>
-        <li><a className="text-2xl"  onClick={() => navigate("/questions")}>QUESTIONS</a></li>
+        <li><a className="text-2xl"  onClick={auth.token ? () => navigate("/questions") : () => document.getElementById('my_modal_4').showModal()}>QUESTIONS</a></li>
     </ul>
     
   </div>
